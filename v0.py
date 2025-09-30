@@ -61,7 +61,7 @@ def analyze_profit(
     batch_cost     = cost_per_batch(goose, fox, booze, COST_TO_MAKE)  # Cost of ingrentients and build cost
     per_pot_cost   = batch_cost / POTIONS_PER_BATCH # Single potion cost
 
- ##fix this   batch_cost_wreturn     = (saved_goose, saved_fox, saved_booze, COST_TO_MAKE, build_eff)  # Cost of ingrentients and build cost
+    batch_cost_wreturn     = saved_goose + saved_fox + saved_booze + COST_TO_MAKE  # Cost of ingrentients and build cost
     per_pot_cost_wreturn   = batch_cost_wreturn / POTIONS_PER_BATCH # Single potion cost
  
 
